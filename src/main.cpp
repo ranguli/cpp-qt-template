@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
         &app,
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
-    engine.loadFromModule("Shalrath.Launcher", "Launcher");
+    engine.loadFromModule("MyAppTemplate.Launcher", "Launcher");
 
 
     return app.exec();

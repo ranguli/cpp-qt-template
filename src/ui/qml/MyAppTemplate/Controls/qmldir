@@ -1,2 +1,2 @@
-module Shalrath.Controls
+module MyAppTemplate.Controls
 TextButton 1.0 TextButton.qml

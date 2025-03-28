@@ -1,8 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import "TextButton.CustomButton"
-
+import MyAppTemplate.Controls
 
 ApplicationWindow {
     id: root
@@ -93,21 +92,11 @@ ApplicationWindow {
                                 wrapMode: Text.WordWrap
                             }
 
-                            Button {
+                            TextButton {
                                 text: "View"
                                 Layout.alignment: Qt.AlignHCenter
                                 Layout.preferredWidth: 120
-                                background: Rectangle {
-                                    implicitWidth: 120
-                                    implicitHeight: 40
-                                    radius: 20
-                                    color: "#333333"
-                                }
                             }
-                            TextButton {
-                                text: "Delete"
-                            }
-
                         }
                     }
                 }
@@ -140,7 +129,7 @@ ApplicationWindow {
                     font.pixelSize: 14
                 }
 
-                Button {
+                TextButton {
                     text: "Add to Basket"
                     Layout.alignment: Qt.AlignLeft
                 }
