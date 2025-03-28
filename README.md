@@ -47,8 +47,8 @@ cmake --build --preset=release
 Debug builds (also with Ninja) can made with:
 
 ```bash
-cmake --preset=default
-cmake --build build
+cmake --preset=debug
+cmake --build --preset=debug
 ```
 
 To do a fresh configure:
